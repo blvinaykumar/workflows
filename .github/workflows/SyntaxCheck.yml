@@ -23,4 +23,4 @@ jobs:
         php-version: '7.4'
 
     - name: Check Syntax
-      run: php -l ./
+      run: php -l index.php
