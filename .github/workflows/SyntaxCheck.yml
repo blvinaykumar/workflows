@@ -23,4 +23,5 @@ jobs:
         php-version: '7.4'
 
     - name: Check Syntax
-      run: php -l index.php
+      run: find . -type f -name "*.php" -exec php -l {} \;
+
